@@ -35,3 +35,39 @@ nav a{
     border-radius: 5px;
     background: #FD6E0A;
 }
+/* second portion styles */
+.second-portion{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.images{
+        
+        background-color: #FFFFFF;
+        width: 870px;
+        padding: 30px;
+        margin-top:21px;
+        border-radius: 5px;
+}
+.text-portion{
+    justify-content: center;
+    border-width: 100%;
+    padding-top: 50%; 
+
+}
+.text-primary-1{
+    color: darkgray;
+}
+.text-primary-2{
+    color: black;
+}
+.text-primary-3{
+    color: orangered;
+}
+.vl {
+    border-left: 6px solid orange;
+    height: 50px;
+  }
+.box{
+    background-color: azure;
+}
+        
