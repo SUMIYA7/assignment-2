@@ -102,7 +102,7 @@ nav a{
 /* 4th portion styles */
 .fourth-portion{
     width:1500px;
-    height:100px;
+    height:150px;
     
 }
 .container{
@@ -121,6 +121,27 @@ nav a{
     border: 3px solid burlywood;
     
     
+}
+/* footer styles */
+.ending-part{
+    width:1500px;
+    height:300px;
+}
+.image-container{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+.new-box-container{
+    height: 20px;
+    width:700px;
+    background-color: bisque;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 100px;
 }
 
         
