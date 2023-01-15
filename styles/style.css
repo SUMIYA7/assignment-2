@@ -39,6 +39,9 @@ nav a{
 .second-portion{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    grid-column-gap:2px;
+    width:1500px;
+    height:800px;
 }
 .images{
         
@@ -50,8 +53,8 @@ nav a{
 }
 .text-portion{
     justify-content: center;
-    border-width: 100%;
-    padding-top: 50%; 
+    border-width:100%;
+    padding-top: 50%;
 
 }
 .text-primary-1{
@@ -63,11 +66,61 @@ nav a{
 .text-primary-3{
     color: orangered;
 }
+/* third portion styles */
+.architect-part{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: bisque;
+    width:1500px;
+    height:600px;
+}
+
+.text-over-image{
+        margin: 3%;
+        position: relative;
+    width: 324px;
+    height: 0px;
+    padding: 30px;
+    margin-top:21px;
+    border-radius: 5px;
+    
+}
+.left{
+    position: absolute;
+    top:17px;
+    left: 20px;
+}
+
 .vl {
     border-left: 6px solid orange;
     height: 50px;
   }
 .box{
     background-color: azure;
+    border:50%;
 }
+/* 4th portion styles */
+.fourth-portion{
+    width:1500px;
+    height:100px;
+    
+}
+.container{
+   display: flex;
+   width: 100%;
+   gap: 10px;
+   margin-left: 100px;
+   margin-right: 100px;
+   
+}
+.boxxx{
+    height: 150px;
+    width: 200px;
+    background-color: aliceblue;
+    justify-content: center;
+    border: 3px solid burlywood;
+    
+    
+}
+
         
