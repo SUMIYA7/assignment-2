@@ -1,0 +1,37 @@
+/* first portion styles */
+.header{
+    background-color: burlywood;
+    width:1500px;
+    height:1000px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    border-width:100%;
+    gap: 950px;
+
+}
+.heading-title{
+    justify-content: center;
+    right:300px;
+}
+.nav-bar{
+    padding-right: 20px;
+    
+}
+nav a{
+    text-decoration: none;
+}
+.heading{
+    text-align: center;
+}
+.btn-primary{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border:0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
